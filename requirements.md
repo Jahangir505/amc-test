@@ -1,0 +1,44 @@
+product_id 
+prodcut_name
+product_brand 
+product_class
+product_category
+product_subcategory
+product_model
+product_base
+product_viscosity
+product_api 
+product_applications
+product_size
+product_detail_file
+product_safety_file
+product_description
+product_description_arabic
+product_image
+product_sku
+product_stock_quantity
+
+
+https://dev.amcolubricants.com/category-name/sub-cat/visco
+
+
+
+product_id (auto_increment)
+prodcut_name
+product_brand >> Velox
+product_class >> Titanium
+product_category
+product_subcategory
+product_model
+product_base
+product_viscosity >> SAE Grades
+product_api >> performance level
+product_applications
+product_size
+product_detail_file
+product_safety_file
+product_description
+product_description_arabic
+product_image
+product_sku
+product_stock_quantity

@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'campton-light';
+    src: url('/fonts/CamptonLight.otf') format('opentype');
+    font-weight: light;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'campton-normal';
+    src: url('/fonts/CamptonBook.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+   
+  @font-face {
+    font-family: 'campton-medium';
+    src: url('/fonts/CamptonMedium.otf') format('opentype');
+    font-weight: medium;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'campton-semibold';
+    src: url('/fonts/CamptonSemiBold.otf') format('opentype');
+    font-weight: semibold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'campton-bold';
+    src: url('/fonts/CamptonBold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+
+  .select-flags button#rfs-btn {
+    color: #ffffff85 !important;
+    font-family: 'campton-light';
+}
+
+.select-flags button#rfs-btn:after {
+    border-top-color: #fff !important;
+}
+
+.select-flags button#rfs-btn[aria-expanded="true"]:after{
+     border-bottom-color: #fff !important;
+}
+
+.select-flags ul{
+    background-color:#272932;
+    color:#fff;
+    border:1px solid #ffffff5e;
+    
+}
+
+.select-flags ul div{
+    background:#272932;
+}
+.select-flags ul div input{
+    background:transparent;
+    border:1px solid #ffffff52;
+}
+.select-flags ul li{
+    border-bottom:1px solid #ffffff54;
+    margin:0px !important;
+}
+.select-flags ul li:hover{
+    background:#343747;
+}
+  
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #424242; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.text-stroke-custome{
+  -webkit-text-stroke: 1px #ffffff;
+  text-shadow: none;
+  -webkit-text-fill-color: transparent;
+}
+
+.swiper-button-disabled{
+  opacity: 0.5;
+}
+
+.custom-class-multiselect {
+  background-color: rgb(55 65 81) !important;
+  padding: 0.25rem !important;
+  border:1px solid rgb(255 255 255 / 25%) !important
+}
+
+.custom-class-multiselect-value {
+  background-color: rgb(75 101 143) !important;
+}
+
+.custom-class-multi-select-menu{
+  background-color: rgb(55 65 81) !important;
+}
+.custom-class-multi-select-option{
+  background-color: rgb(55 65 81) !important;
+  border-bottom:1px solid gray !important;
+}
+.custom-class-multi-select-option:hover{
+  background-color: rgb(75 101 143) !important;
+}
+
+
+.custom-class-multiselect-value div {
+    color: #fff;
+}
